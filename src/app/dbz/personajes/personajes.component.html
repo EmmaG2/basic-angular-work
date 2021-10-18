@@ -1,0 +1,8 @@
+<h3>Personajes</h3>
+<hr>
+<ul>
+    <li *ngFor="let heroe of personajes">
+        nombre: {{heroe.nombre}}<br>
+        poder: {{heroe.poder | number}}
+    </li>
+</ul>
