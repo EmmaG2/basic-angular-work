@@ -6,7 +6,9 @@ import { Component } from '@angular/core';
 })
 export class MainPageComponent  {
 
-  constructor() { }
-
+  agregar() {
+    console.log('Hey');
+    
+  }
 
 };
